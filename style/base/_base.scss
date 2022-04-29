@@ -12,3 +12,40 @@ body {
   text-align: center;
   line-height: 1.5;
 }
+
+#header{
+  height: 110px;
+  background-color: rgb(93,123,168);
+ 
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+#logonav{
+  width:80px;
+  height: 70px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  // border:1px solid red;
+}
+#logonav>img{
+  width:99%;
+  height: 99%;
+  border-radius: 45%;
+}
+#tagsnav{
+  width: 60%;
+  // border:1px solid red;
+  display: flex;
+  justify-content: space-around;
+}
+#tagsnav>div{
+  height: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: aliceblue;
+  font-size:35px;
+}
+.techstack{
+  margin-bottom: 2%;
+}

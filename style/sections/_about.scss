@@ -46,6 +46,7 @@
       justify-content: center;
       flex-direction: column;
       text-align: left;
+      font-size: 35px;
       @include respond(tab-port-sm) {
         align-items: center;
         text-align: center;

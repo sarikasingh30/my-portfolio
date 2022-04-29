@@ -22,7 +22,8 @@
     margin-top: 3.2rem;
     padding: 0 2rem;
     backface-visibility: hidden;
-
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     &__text {
       margin-bottom: 2.5rem;
     }
@@ -38,3 +39,11 @@
     }
   }
 }
+// .contctbox{
+//   // border:1px solid rebeccapurple
+// }
+// .contact-wrapper>div{
+//   border:1px solid rebeccapurple
+// }
+
+
